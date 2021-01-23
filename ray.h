@@ -5,9 +5,12 @@
 
 class ray
 {
-public:
+    
+private:
     point3 orig;
     vec3 dir;
+
+public:    
     ray() {}
     ray(const point3 &origin, const vec3 &direction) : orig(origin), dir(direction)
     {
